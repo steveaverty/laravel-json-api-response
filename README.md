@@ -2,7 +2,7 @@
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/avertys/json-api-response.svg?style=flat-square)](https://packagist.org/packages/averts/json-api-response)
 [![Total Downloads](https://img.shields.io/packagist/dt/avertys/json-api-response.svg?style=flat-square)](https://packagist.org/packages/avertys/json-api-response)
-![GitHub Actions](https://github.com/steveaverty/json-api-response/actions/workflows/main.yml/badge.svg)
+![GitHub Actions](https://github.com/steveaverty/laravel-json-api-response/actions/workflows/php.yml/badge.svg)]
 
 This package allows you to send elegant json response from your Laravel api.
 
