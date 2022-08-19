@@ -2,7 +2,6 @@
     "name": "avertys/json-api-response",
     "description": "Send  an elegant Json response from your api. ",
     "keywords": [
-        "hoostr",
         "json-api-response"
     ],
     "homepage": "https://github.com/avertys/json-api-response",
@@ -17,7 +16,6 @@
     ],
     "require": {
         "php": "^8.0",
-        "illuminate/support": "*"
     },
     "require-dev": {
         "orchestra/testbench": "^6.0",
