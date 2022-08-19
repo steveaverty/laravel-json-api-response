@@ -1,0 +1,54 @@
+{
+    "name": "avertys/json-api-response",
+    "description": "Send  an elegant Json response from your api. ",
+    "keywords": [
+        "hoostr",
+        "json-api-response"
+    ],
+    "homepage": "https://github.com/avertys/json-api-response",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Steve averty",
+            "email": "steveaverty.developer@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "illuminate/support": "^8.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^6.0",
+        "phpunit/phpunit": "^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Avertys\\JsonApiResponse\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Avertys\\JsonApiResponse\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Avertys\\JsonApiResponse\\JsonApiResponseServiceProvider"
+            ],
+            "aliases": {
+                "JsonApiResponse": "Avertys\\JsonApiResponse\\JsonApiResponseFacade"
+            }
+        }
+    }
+}
